@@ -5,4 +5,4 @@ layout: default
 
 Classes:
 
-[Champagne & Oysters](/classes/champagne-and-oysters)
+[Champagne & Oysters](/class/champagne-and-oysters)

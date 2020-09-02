@@ -1,0 +1,51 @@
+---
+title: Canlis Crab Shack
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: jeremy@jeremypbeasley.com
+description: "An outdoor restaurant in our parking lot featuring buckets of crab,
+  icy beverages and cocktails on draft \U0001F379, luxury commodes on wheels \U0001F6BD,
+  and copious amounts of hand sanitizer. \U0001F4A6"
+og_title: The Canlis Crab Shack
+og_photo: "/uploads/3dcrabs.gif"
+reservations_link: https://www.exploretock.com/canlis
+baseurl: 
+url: http://canliscrabshack.com
+twitter_username: canlis
+github_username: jeremypbeasley
+markdown: kramdown
+exclude:
+- Gemfile.lock
+- Gemfile
+- Gruntfile.js
+- node_modules
+- package.json
+- README.md
+gems:
+- jekyll-assets
+assets:
+  cache: false
+  autowrite: true
+  prefix: "/assets"
+  digest: false
+  assets:
+  - "*.png"
+  - "*.jpg"
+  - "*.svg"
+  - "*.otf"
+  - "*.ttf"
+  - "*.woff"
+  - "*.woff2"
+  - "*.eot"
+  - master.css
+  - master.js
+  sources:
+  - assets/
+  - assets/_img
+  - assets/_fonts

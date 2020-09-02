@@ -1,0 +1,194 @@
+{% include minihead.html %}
+
+<div class="logo"></div>
+
+<div class="dial_container">
+  <h1 class="dial"></h1>
+</div>
+
+<div class="tickets flex flex-center">
+    <a href="https://www.exploretock.com/canliscrabshack" target="_blank">Buy tickets</a>
+</div>
+
+<section class="flex flex_center block bg_red">
+  <div class="textblock intro">
+    <p><span class="">The Canlis Crab Shack:</span> an outdoor restaurant in our parking lot featuring buckets of crab, icy beverages and cocktails on draft <img class="emoji" src="/uploads/emoji_cocktail.png"/>, luxury commodes on wheels <img class="emoji" src="/uploads/emoji_toilet.png"/> and copious amounts of hand sanitizer <img class="emoji" src="/uploads/emoji_squirt.png"/>. Bibs provided. Masks required and bucket hats available for purchase.
+  </div>
+</section>
+<section class="flex flex_center block bg_yellow">
+  <div class="textblock">
+    <img class="seagull" src="/uploads/seagull2.gif"/>
+    <p><span class="price"><div class="waves"><div class="waves_inside"></div></div>{{ page.price }}</span> per person.</p>
+    {% for item in page.menu %}
+      <div class="menurow flex">
+        <div class="menucolumn">
+         {{ item.title }}
+        </div>
+        <div class="menucolumn">
+          {{ item. desc}}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<section class="flex flex_center block bg_navy safe">
+  <div class="textblock">
+    <p>The best restaurant these days is the safest restaurant.</p>
+    <p><i>Here’s</i> what we’re doing to stay clean, sanitized, and fight the monster.</p>
+  </div>
+</section>
+<section class="flex flex_center block bg_red">
+  <div class="textblock">
+  {% for item in page.safety %}
+    <div class="safetyrow flex">
+      <div class="safetycolumn">
+         {{ item.title }}
+      </div>
+      <div class="safetycolumn">
+        {{ item. desc}}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+<section class="flex flex_center block bg_yellow">
+  <div class="rope"></div>
+  <div class="textblock">
+    <p>{{ page.tickets_prompt }}</p>
+    <p>Want us to send you an email when the next tickets become available?</p>
+    <div class="signup">
+      <form action="https://canlis.us17.list-manage.com/subscribe/post?u=32f6e6c858c315fd7e45caafc&amp;id=09bdc2345e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      	  <input type="email" value="" name="EMAIL" placeholder="coolbeans@aol.com" class="required email" id="mce-EMAIL">
+      		<div class="response mt3" id="mce-error-response" style="display:none"></div>
+      		<div class="response mt3" id="mce-success-response" style="display:none"></div>
+
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_32f6e6c858c315fd7e45caafc_09bdc2345e" tabindex="-1" value=""></div>
+          <div class="clear">
+            <input type="submit" value="Email me!" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+      </form>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    </div>
+    <img class="mt8" src="/uploads/we_are_waiting_for_you.gif"/>
+  </div>
+  <div class="rope"></div>
+</section>
+<section class="flex flex_center block block_last bg_navy">
+  <div class="textblock">
+    <p>Follow Canlis for the latest. <img style="width: 30px;" src="https://seeklogo.com/images/I/instagram-logo-3EDAAFAF47-seeklogo.com.png">
+      <a class="underline invert" href="http://instagram.com/canlisrestaurant" target="_blank">
+      <span >@canlisrestaurant</span></a></p>
+    <!-- <div class="crab"></div> -->
+    <img src="/uploads/crab.gif"/>
+    <p class="small"><i><a href="https://www.google.com/maps/dir//2576+Aurora+Ave+N,+Seattle,+WA+98109/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x54901505390b0dc1:0xf6565bb98881bb3b?sa=X&ved=2ahUKEwjpsKr6677qAhVcJDQIHazoAMIQwwUwAHoECAsQAw" target="_blank" class="invert underline">2576 Aurora Ave N, Seattle, WA 98109</a></i></p>
+    <a href="http://canlis.com"><img style="max-width: 150px" class="mb10" src="/uploads/back.png"></a>
+    <a href="https://www.exploretock.com/canliscrabshack/faq"><img style="max-width: 150px" src="/uploads/faq.gif"></a>
+  </div>
+</section>
+<section class="flyover"></section>
+<section class="wave_container bg_navy ">
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+  <div class="bigwaves">
+    <div class="bigwaves_inside"></div>
+  </div>
+</section>
+
+<section class="flex flex_center block bg_red p4 mb10">
+  <p class="times">{{ page.edited }}</p><br>
+  <p class="times"></p>
+
+</section>
+
+{% include minifooter.html %}

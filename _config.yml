@@ -13,7 +13,7 @@ description: ''
 og_title: The Canlis Crab Shack
 og_photo: "/uploads/3dcrabs.gif"
 reservations_link: https://www.exploretock.com/canlis
-baseurl:
+baseurl: 
 url: http://canlis.community
 twitter_username: canlis
 github_username: jeremypbeasley
